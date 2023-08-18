@@ -7,9 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "project-setup-cli": "./index.js"
+  },
   "author": "Aditya",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.10",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
